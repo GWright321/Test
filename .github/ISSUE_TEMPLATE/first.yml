@@ -152,7 +152,7 @@ body:
       value: "- [ ] [Okta account](https://vfs.atlassian.net/wiki/spaces/OT/pages/2532508159/Offboarding+users+from+Okta) disabled"
   - type: markdown
     attributes:
-      value: "### Support Tier 2 - DevOps 🌷 </br></br>"
+      value: "### Support Tier 2 - DevOps 🌷 </br>"
   - type: markdown
     attributes:
       value: "_The following steps are performed by **Platform Support Tier 2 DevOps**. Detailed instructions found [here](https://vfs.atlassian.net/wiki/spaces/OT/pages/2097545323/Offboard+Team+Member)_"
