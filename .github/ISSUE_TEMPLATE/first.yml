@@ -152,7 +152,7 @@ body:
       value: "- [ ] [Okta account](https://vfs.atlassian.net/wiki/spaces/OT/pages/2532508159/Offboarding+users+from+Okta) disabled"
   - type: markdown
     attributes:
-      value: "### Support Tier 2 - DevOps 🌷"
+      value: "### Support Tier 2 - DevOps 🌷 </br></br>"
   - type: markdown
     attributes:
       value: "_The following steps are performed by **Platform Support Tier 2 DevOps**. Detailed instructions found [here](https://vfs.atlassian.net/wiki/spaces/OT/pages/2097545323/Offboard+Team+Member)_"
@@ -170,7 +170,7 @@ body:
       value: "- [ ] Bot (`va-bot`, `va-vfs-bot`, and `va-vsp-bot`) user GitHub account(s) YubiKey(s) removed</br> > This is rare. See [documentation](https://vfs.atlassian.net/wiki/spaces/OT/pages/1908932642/Remove+YubiKeys+of+Offboarded+Operations+Team+Members) for current users and removal process."
   - type: markdown
     attributes: 
-      value: "### Other 🌻"
+      value: "### Other 🌻 </br>"
   - type: markdown
     attributes: 
       value: "- [ ] Google analytics and Domo access removed (if applicable. Make sure the `analytics-insights` label is on this Issue)"
