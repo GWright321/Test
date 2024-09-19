@@ -1,154 +1,96 @@
-
-name: Offboarding request
-description: To inform the Platform team when a VA.gov Platform or VFS team member has left and needs offboarding.
-title: Offboarding of [individual]
-labels: analytics-insights, Offboarding, operations
+name: Offboarding Request Form
+description: |
+  Fill out name of individual and **Description** section below. Note: This form only handles deactivation from the DSVA (Office of CTO @ VA) Slack instance. For Lighthouse Slack and other DOTS-managed tool removal, please submit a [ticket for DOTS removal](https://jira.devops.va.gov/servicedesk/customer/portal/1/create/714).
+  
+  *(Please add only one individual per form)*
 
 body:
-  - type: markdown
-    attributes:
-      value: "# Instructions"
-  - type: markdown
-    attributes:
-      value: "Fill out name of individual and **Description** section below. Note: This form only handles deactivation from the DSVA (Office of CTO @ VA) Slack instance. For Lighthouse Slack and other DOTS-managed tool removal, please submit a [ticket for DOTS removal](https://jira.devops.va.gov/servicedesk/customer/portal/1/create/714)."
-  - type: markdown
-    attributes:
-      value: "*(Please add only one individual per form)*"
-  - type: markdown
-    attributes:
-      value: "</br></br>"
-  - type: markdown
-    attributes:
-      value: "# Description"
-  - type: markdown
-    attributes:
-      value: "Please provide the following information about the individual being offboarded:"
-  - type: input
-    id: requiredName
-    attributes:
-      label: Name
-      description:
-      placeholder: ex. Jane Smith
-    validations:
-      required: true
-  - type: input
-    id: teamName
-    attributes:
-      label: Team Name
-      description:
-      placeholder: 
-    validations:
-      required: true
-  - type: input 
-    id: teamRole
-    attributes:
-      label: Role on Team
-      description:
-      placeholder: 
-    validations:
-      required: true
-  - type: input
-    id: lastDay
-    attributes:
-      label: Expected Last Day
-      description: Expected last day in role
-      placeholder: MM/DD/YYYY
-    validations:
-      required: true
-  - type: input 
-    id: Company
-    attributes:
-      label: Company they work for
-      description:
-      placeholder: 
-    validations:
-      required: true
-  - type: input 
-    id: email
-    attributes:
-      label: Email
-      description: (Multiple emails listed in order of relevance to VA business, VA, Company, Personal, etc....)
-      placeholder: 
-    validations:
-      required: true
-  - type: input 
-    id: GithubUsername
-    attributes:
-      label: GitHub Username
-      description: Please include "@" symbol
-      placeholder: 
-    validations:
-      required: true
-  - type: input 
-    id: userCOR
-    attributes:
-      label: COR
-      description:
-      placeholder: 
-    validations:
-      required: true
-  - type: input 
-    id: userPM
-    attributes:
-      label: PM
-      description:
-      placeholder: 
-    validations:
-      required: true
-  - type: input 
-    id: addAccess
-    attributes:
-      label: Any additional acccess
-      description: Access titles only.
-      placeholder: "ex: SOCKS, Pagerduty, Google analytics, etc."
-    validations:
-      required: true
-  - type: textarea
-    id: additionalInfo
-    attributes:
-      label: Any additional information 
-      description: Feel free to add any additional information that might be relevant for offboarding porposes
-      placeholder: 
-      value: 
-    validations:
-      required: false
-  - type: markdown
-    attributes:
-      value: ":raised_hands: :tada: All done. Don't fill out or modify anything below here. :tada: :raised_hands: </br></br></br>"
-  - type: markdown
-    attributes:
-      value: "## Platform Support Tasks </br></br>"
+  - name: Individual's Name
+    type: text
+    required: true
 
-  - type: markdown
-    attributes:
-      value: "### Support Tier 1 🌺 </br>"
-  - type: markdown
-    attributes:
-      value: "_The following steps are performed by the **Platform Support Tier 1** team. Detailed instructions found [here](https://vfs.atlassian.net/wiki/spaces/PTST/pages/3105554515/Tier+1+Offboarding+Responsibilities)_"
-  - type: markdown
-    attributes:
-      value: "- [ ] Requested removal from DSVA (Office of CTO @ VA) Slack (if applicable. Search for them in Slack) </br> > A comment on this ticket prefixed with `/request` (i.e. `/request FirstName LastName`) will send a message to the Slack admins automatically!"
-  - type: markdown
-    attributes: 
-      value: "- [ ] Requested removal from Confluence (if applicable. Check [confluence members](https://vfs.atlassian.net/wiki/people/search?q=))"
-  - type: markdown
-    attributes: 
-      value: "- [ ] Remove from [Platform Atlas](https://www.va.gov/atlas/product_directory/team_members) (if applicable)"
-  - type: markdown
-    attributes: 
-      value: "- [ ] User removed from the VA GitHub Org (if applicable. Check [department-of-veterans-affairs/people](https://github.com/orgs/department-of-veterans-affairs/people)) </br> > Fill out request found [here](https://github.com/department-of-veterans-affairs/github-user-requests/issues/new?assignees=&labels=remove-user&template=user-remove.yml&title=Remove+User+from+Org%3A+%5Busername%5D)."
-  - type: markdown
-    attributes: 
-      value: "- [ ] Pagerduty access removed (if applicable. Check [pd users](https://dsva.pagerduty.com/users-new))"
-  - type: markdown
-    attributes: 
-      value: "- [ ] Sentry access removed (if applicable. Check [Sentry members](http://sentry.vfs.va.gov/settings/vsp/members/))"
-  - type: markdown
-    attributes: 
-      value: "- [ ] TestRail access removed (if applicable, Check [TestRail User List](https://dsvavsp.testrail.io/index.php?/admin/users/overview))"
-  - type: markdown
-    attributes: 
-      value: "- [ ] Zenhub license removed (If applicable. Check for license [here](https://app.zenhub.com/settings/o/department-of-veterans-affairs/users))"
-  - type: markdown
-    attributes: 
-      value: "- [ ] [Okta account](https://vfs.atlassian.net/wiki/spaces/OT/pages/2532508159/Offboarding+users+from+Okta) disabled"
+  - name: Team Name
+    type: text
+    required: false
+
+  - name: Role on Team
+    type: text
+    required: false
+
+  - name: Expected Last Day
+    type: date
+    required: true
+    format: MM/DD/YYYY
+
+  - name: Company They Work For
+    type: text
+    required: false
+
+  - name: Email
+    type: text
+    required: true
+    description: 'Multiple emails listed in order of relevance to VA business, VA, Company, Personal, etc.'
+
+  - name: GitHub Username
+    type: text
+    required: false
+    description: 'Please include @ symbol'
+
+  - name: COR
+    type: text
+    required: false
+
+  - name: PM
+    type: text
+    required: false
+
+  - name: Additional Access
+    type: textarea
+    required: false
+    description: 'First line formatted with access titles only. Additional notes may be added on second line after the list.'
+
+platform_support_tasks:
+  title: Platform Support Tasks
+  description: |
+    _The following steps are performed by the **Platform Support Tier 1** team. Detailed instructions found [here](https://vfs.atlassian.net/wiki/spaces/PTST/pages/3105554515/Tier+1+Offboarding+Responsibilities)_
+
+  tasks:
+    - name: Requested removal from DSVA Slack
+      type: checkbox
+      description: 'Search for them in Slack'
+      required: false
+
+    - name: Requested removal from Confluence
+      type: checkbox
+      required: false
+
+    - name: Remove from Platform Atlas
+      type: checkbox
+      required: false
+
+    - name: User removed from VA GitHub Org
+      type: checkbox
+      required: false
+
+    - name: Pagerduty access removed
+      type: checkbox
+      required: false
+
+    - name: Sentry access removed
+      type: checkbox
+      required: false
+
+    - name: TestRail access removed
+      type: checkbox
+      required: false
+
+    - name: Zenhub license removed
+      type: checkbox
+      required: false
+
+    - name: Okta account disabled
+      type: checkbox
+      required: false
+
+footer: |
+  :raised_hands: :tada: All done. Don't fill out or modify anything below here. :tada: :raised_hands:
