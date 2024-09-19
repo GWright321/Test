@@ -149,7 +149,7 @@ body:
       value: "- [ ] Zenhub license removed (If applicable. Check for license [here](https://app.zenhub.com/settings/o/department-of-veterans-affairs/users))"
   - type: markdown
     attributes: 
-      value: "- [ ] [Okta account](https://vfs.atlassian.net/wiki/spaces/OT/pages/2532508159/Offboarding+users+from+Okta) disabled"
+      value: "- [ ] [Okta account](https://vfs.atlassian.net/wiki/spaces/OT/pages/2532508159/Offboarding+users+from+Okta) disabled </br></br></br>"
   - type: markdown
     attributes:
       value: "### Support Tier 2 - DevOps 🌷 </br>"
