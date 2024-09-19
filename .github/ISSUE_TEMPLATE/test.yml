@@ -1,96 +1,76 @@
 name: Offboarding Request Form
 description: |
-  Fill out name of individual and **Description** section below. Note: This form only handles deactivation from the DSVA (Office of CTO @ VA) Slack instance. For Lighthouse Slack and other DOTS-managed tool removal, please submit a [ticket for DOTS removal](https://jira.devops.va.gov/servicedesk/customer/portal/1/create/714).
-  
+  Fill out the name of the individual and the **Description** section below. Note: This form only handles deactivation from the DSVA (Office of CTO @ VA) Slack instance. For Lighthouse Slack and other DOTS-managed tool removal, please submit a [ticket for DOTS removal](https://jira.devops.va.gov/servicedesk/customer/portal/1/create/714).
+
   *(Please add only one individual per form)*
 
-body:
+title: Offboarding Request for ${{ inputs.name }}
+
+inputs:
   - name: Individual's Name
-    type: text
+    description: "Enter the name of the individual being offboarded"
     required: true
+    type: string
 
   - name: Team Name
-    type: text
+    description: "Enter the team name"
     required: false
+    type: string
 
   - name: Role on Team
-    type: text
+    description: "Enter the individual's role on the team"
     required: false
+    type: string
 
   - name: Expected Last Day
-    type: date
+    description: "Enter the expected last day (MM/DD/YYYY)"
     required: true
-    format: MM/DD/YYYY
+    type: string
 
   - name: Company They Work For
-    type: text
+    description: "Enter the company they work for"
     required: false
+    type: string
 
   - name: Email
-    type: text
+    description: "List relevant emails (VA, Company, Personal, etc.)"
     required: true
-    description: 'Multiple emails listed in order of relevance to VA business, VA, Company, Personal, etc.'
+    type: string
 
   - name: GitHub Username
-    type: text
+    description: "Enter the GitHub username (include @ symbol)"
     required: false
-    description: 'Please include @ symbol'
+    type: string
 
   - name: COR
-    type: text
+    description: "Enter the Contracting Officer Representative (if applicable)"
     required: false
+    type: string
 
   - name: PM
-    type: text
+    description: "Enter the Project Manager (if applicable)"
     required: false
+    type: string
 
   - name: Additional Access
-    type: textarea
+    description: "List any additional access titles"
     required: false
-    description: 'First line formatted with access titles only. Additional notes may be added on second line after the list.'
+    type: textarea
 
-platform_support_tasks:
-  title: Platform Support Tasks
-  description: |
-    _The following steps are performed by the **Platform Support Tier 1** team. Detailed instructions found [here](https://vfs.atlassian.net/wiki/spaces/PTST/pages/3105554515/Tier+1+Offboarding+Responsibilities)_
+body: |
+  ## Platform Support Tasks
 
-  tasks:
-    - name: Requested removal from DSVA Slack
-      type: checkbox
-      description: 'Search for them in Slack'
-      required: false
+  _The following steps are performed by the **Platform Support Tier 1** team. Detailed instructions found [here](https://vfs.atlassian.net/wiki/spaces/PTST/pages/3105554515/Tier+1+Offboarding+Responsibilities)_
 
-    - name: Requested removal from Confluence
-      type: checkbox
-      required: false
-
-    - name: Remove from Platform Atlas
-      type: checkbox
-      required: false
-
-    - name: User removed from VA GitHub Org
-      type: checkbox
-      required: false
-
-    - name: Pagerduty access removed
-      type: checkbox
-      required: false
-
-    - name: Sentry access removed
-      type: checkbox
-      required: false
-
-    - name: TestRail access removed
-      type: checkbox
-      required: false
-
-    - name: Zenhub license removed
-      type: checkbox
-      required: false
-
-    - name: Okta account disabled
-      type: checkbox
-      required: false
+  - [ ] Requested removal from DSVA Slack
+  - [ ] Requested removal from Confluence
+  - [ ] Remove from Platform Atlas
+  - [ ] User removed from VA GitHub Org
+  - [ ] PagerDuty access removed
+  - [ ] Sentry access removed
+  - [ ] TestRail access removed
+  - [ ] Zenhub license removed
+  - [ ] Okta account disabled
 
 footer: |
   :raised_hands: :tada: All done. Don't fill out or modify anything below here. :tada: :raised_hands:
