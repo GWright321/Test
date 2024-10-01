@@ -1,0 +1,126 @@
+
+name: Onboarding Request
+description: To guide new members through the onboarding process for the VA.gov Platform or VFS team.
+title: Onboarding of [individual]
+labels: onboarding, VFS, operations
+
+body:
+  - type: markdown
+    attributes:
+      value: "**Note:** this ticket should not be submitted until after you receive access to the appropriate repos. You will receive an email titled “USAccess PIV Sponsored” when your access is ready."
+  - type: markdown
+    attributes:
+      value: "## Welcome and Introduction\nWelcome to the Department of Veterans Affairs (VA) Veteran Facing Services (VFS) team!\n\nAs a new VFS team member, you will be working in the web ecosystem we call the VA.gov Platform (or \"**The Platform,**\" for short). The tasks on this list are designed to get you up to speed on the role of Platform, making it easier for you to do your job.\n\nBecause the VA is a huge organization that serves millions, the Platforms it runs on are equally big, complex, and multilayered. Most people find that even learning the basics for their own practice area entails a significant learning curve. The tasks on this checklist will help you acquire those basics as quickly and efficiently as possible."
+  - type: markdown
+    attributes:
+      value: "## User Story\nAs a new VFS team member, I need to complete onboarding activities so I can successfully work on my project and support the VA.gov Platform."
+  - type: markdown
+    attributes:
+      value: "## How to fill out this ticket\n- [ ] Add your name to the ticket title\n- [ ] Complete the Onboarding Checklist below\n- [ ] Under **Get set up for your practice area,** you only need to complete the items for your role\n- [ ] You can close this ticket when all items are completed in the Onboarding Checklist and the Platform Checklist"
+  - type: markdown
+    attributes:
+      value: "# Description"
+  - type: markdown
+    attributes:
+      value: "Please provide the following information about the individual being onboarded:"
+  - type: input
+    id: requiredName
+    attributes:
+      label: Name
+      placeholder: ex. Jane Smith
+    validations:
+      required: true
+  - type: input
+    id: pronouns
+    attributes:
+      label: Pronouns
+      placeholder: ex. she/her
+    validations:
+      required: false
+  - type: input
+    id: role
+    attributes:
+      label: Role
+      placeholder: 
+    validations:
+      required: true
+  - type: input
+    id: email
+    attributes:
+      label: Email
+      placeholder: 
+    validations:
+      required: true
+  - type: input
+    id: githubHandle
+    attributes:
+      label: GitHub Handle
+      placeholder: 
+    validations:
+      required: true
+  - type: input
+    id: startDate
+    attributes:
+      label: Start Date
+      placeholder: MM/DD/YYYY
+    validations:
+      required: true
+  - type: input
+    id: vfsTeam
+    attributes:
+      label: VFS Team
+      placeholder: 
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: "### Onboarding Checklist"
+  - type: markdown
+    attributes:
+      value: "- [ ] Complete the fields above"
+  - type: markdown
+    attributes:
+      value: "- [ ] Watch the [General orientation](https://depo-platform-documentation.scrollhelp.site/getting-started/calendly-orientation-sessions#OrientationSessions-Generalorientation) recording"
+  - type: markdown
+    attributes:
+      value: "- [ ] Update your [Slack profile](https://depo-platform-documentation.scrollhelp.site/getting-started/slack-profile)"
+  - type: markdown
+    attributes:
+      value: "- [ ] Watch [VA.gov overview video](https://depo-platform-documentation.scrollhelp.site/getting-started/Platform-Orientation.1877344532.html#PlatformOrientation-Purpose)"
+  - type: markdown
+    attributes:
+      value: "- [ ] Watch [VFS Orientation for Platform Website video](https://www.youtube.com/watch?v=I3RFCuTEfBI&ab_channel=PlatformCrew)"
+  - type: markdown
+    attributes:
+      value: "- [ ] Review the [Getting help from the Platform in Slack guidance](https://depo-platform-documentation.scrollhelp.site/support/Getting-help-from-the-Platform-in-Slack.1439138197.html)"
+  - type: markdown
+    attributes:
+      value: "- [ ] Review [Welcome documentation](https://depo-platform-documentation.scrollhelp.site/getting-started/Welcome.1255276574.html)"
+  - type: markdown
+    attributes:
+      value: "- [ ] [Request Access to Tools](https://depo-platform-documentation.scrollhelp.site/getting-started/Request-access-to-tools.969605215.html)"
+  - type: markdown
+    attributes:
+      value: "- [ ] Confirm that you have access to the [VA GitHub Organization](https://depo-platform-documentation.scrollhelp.site/getting-started/request-access-to-tools#Requestaccesstotools-GettingaccesstotheVAGitHuborganization)"
+  - type: markdown
+    attributes:
+      value: "- [ ] Opt out of Google Analytics on all your devices"
+  - type: markdown
+    attributes:
+      value: "### Get Set Up for Your Practice Area"
+  - type: markdown
+    attributes:
+      value: "Please complete the tasks relevant to your role."
+  - type: markdown
+    attributes:
+      value: ":raised_hands: :tada: All done. Don't fill out or modify anything below here. :tada: :raised_hands: </br></br></br>"
+  - type: markdown
+    attributes:
+      value: "## Platform Support Tasks"
+  - type: markdown
+    attributes:
+      value: "- [ ] New VFS team member has been added to the VFS Team Roster located in [Atlas](https://www.va.gov/atlas/)"
+  - type: markdown
+    attributes:
+      value: "- [ ] New VFS team member has been added to the vets.gov-write GitHub team"
+```
