@@ -16,7 +16,7 @@ body:
       value: "## User Story\nAs a new VFS team member, I need to complete onboarding activities so I can successfully work on my project and support the VA.gov Platform."
   - type: markdown
     attributes:
-      value: "## How to fill out this ticket\n- [ ] Add your name to the ticket title\n- [ ] Complete the Onboarding Checklist below\n- [ ] Under **Get set up for your practice area,** you only need to complete the items for your role\n- [ ] You can close this ticket when all items are completed in the Onboarding Checklist and the Platform Checklist"
+      value: "## How to fill out this ticket\n- [ ] Add your name to the ticket title\n- [ ] Complete the Onboarding Checklist below\n- [ ] Under **Get set up for your practice area,** you only need to complete the items for your role\n- [ ] You can close this ticket when all items are completed in the Onboarding Checklist and the Platform Checklist </br>"
   - type: markdown
     attributes:
       value: "## Onboarding Checklist"
