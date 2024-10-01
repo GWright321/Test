@@ -23,6 +23,9 @@ body:
   - type: markdown
     attributes:
       value: "Share your info with Platform"
+  - type: markdown
+    attributes:
+      value: "- [ ] Complete the fields above"
   - type: input
     id: requiredName
     attributes:
@@ -75,9 +78,6 @@ body:
   - type: markdown
     attributes:
       value: "### Onboarding Checklist"
-  - type: markdown
-    attributes:
-      value: "- [ ] Complete the fields above"
   - type: markdown
     attributes:
       value: "- [ ] Watch the [General orientation](https://depo-platform-documentation.scrollhelp.site/getting-started/calendly-orientation-sessions#OrientationSessions-Generalorientation) recording"
