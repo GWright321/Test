@@ -19,7 +19,7 @@ body:
       value: "## How to fill out this ticket\n- [ ] Add your name to the ticket title\n- [ ] Complete the Onboarding Checklist below\n- [ ] Under **Get set up for your practice area,** you only need to complete the items for your role\n- [ ] You can close this ticket when all items are completed in the Onboarding Checklist and the Platform Checklist"
   - type: markdown
     attributes:
-      value: "# Onboarding Checklist"
+      value: "## Onboarding Checklist"
   - type: markdown
     attributes:
       value: "Share your info with Platform"
