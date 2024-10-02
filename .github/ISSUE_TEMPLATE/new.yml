@@ -1,3 +1,4 @@
+
 name: Offboardin request
 description: To inform the Platform team when a VA.gov Platform or VFS team member has left and needs offboarding.
 title: Offboarding of [individual]
@@ -9,7 +10,7 @@ body:
       value: "# Instructions"
   - type: markdown
     attributes:
-      value: "Fill out the name of the individual and **Description** section below. Note: This form only handles deactivation from the DSVA (Office of CTO @ VA) Slack instance. For Lighthouse Slack and other DOTS-managed tool removal, please submit a [ticket for DOTS removal](https://jira.devops.va.gov/servicedesk/customer/portal/1/create/714)."
+      value: "Fill out name of individual and **Description** section below. Note: This form only handles deactivation from the DSVA (Office of CTO @ VA) Slack instance. For Lighthouse Slack and other DOTS-managed tool removal, please submit a [ticket for DOTS removal](https://jira.devops.va.gov/servicedesk/customer/portal/1/create/714)."
   - type: markdown
     attributes:
       value: "*(Please add only one individual per form)*"
@@ -26,7 +27,7 @@ body:
     id: requiredName
     attributes:
       label: Name
-      description: 
+      description:
       placeholder: ex. Jane Smith
     validations:
       required: true
@@ -34,7 +35,7 @@ body:
     id: teamName
     attributes:
       label: Team Name
-      description: 
+      description:
       placeholder: 
     validations:
       required: true
@@ -42,7 +43,7 @@ body:
     id: teamRole
     attributes:
       label: Role on Team
-      description: 
+      description:
       placeholder: 
     validations:
       required: true
@@ -58,7 +59,7 @@ body:
     id: Company
     attributes:
       label: Company they work for
-      description: 
+      description:
       placeholder: 
     validations:
       required: true
@@ -82,7 +83,7 @@ body:
     id: userCOR
     attributes:
       label: COR
-      description: 
+      description:
       placeholder: 
     validations:
       required: true
@@ -90,23 +91,23 @@ body:
     id: userPM
     attributes:
       label: PM
-      description: 
+      description:
       placeholder: 
     validations:
       required: true
   - type: input 
     id: addAccess
     attributes:
-      label: Any additional access
+      label: Any additional acccess
       description: Access titles only.
-      placeholder: "ex: SOCKS, PagerDuty, Google Analytics, etc."
+      placeholder: "ex: SOCKS, Pagerduty, Google analytics, etc."
     validations:
       required: true
   - type: textarea
     id: additionalInfo
     attributes:
       label: Any additional information 
-      description: Feel free to add any additional information that might be relevant for offboarding purposes
+      description: Feel free to add any additional information that might be relevant for offboarding porposes
       placeholder: 
       value: 
     validations:
@@ -117,9 +118,10 @@ body:
   - type: markdown
     attributes:
       value: "## Platform Support Tasks </br></br>"
+
   - type: markdown
     attributes:
-      value: "### Support Tier 1 🌺 </br></br>"
+      value: "### Support Tier 1 🌺 </br>"
   - type: markdown
     attributes:
       value: "_The following steps are performed by the **Platform Support Tier 1** team. Detailed instructions found [here](https://vfs.atlassian.net/wiki/spaces/PTST/pages/3105554515/Tier+1+Offboarding+Responsibilities)_"
@@ -137,7 +139,7 @@ body:
       value: "- [ ] User removed from the VA GitHub Org (if applicable. Check [department-of-veterans-affairs/people](https://github.com/orgs/department-of-veterans-affairs/people)) </br> > Fill out request found [here](https://github.com/department-of-veterans-affairs/github-user-requests/issues/new?assignees=&labels=remove-user&template=user-remove.yml&title=Remove+User+from+Org%3A+%5Busername%5D)."
   - type: markdown
     attributes: 
-      value: "- [ ] PagerDuty access removed (if applicable. Check [pd users](https://dsva.pagerduty.com/users-new))"
+      value: "- [ ] Pagerduty access removed (if applicable. Check [pd users](https://dsva.pagerduty.com/users-new))"
   - type: markdown
     attributes: 
       value: "- [ ] Sentry access removed (if applicable. Check [Sentry members](http://sentry.vfs.va.gov/settings/vsp/members/))"
@@ -152,7 +154,7 @@ body:
       value: "- [ ] [Okta account](https://vfs.atlassian.net/wiki/spaces/OT/pages/2532508159/Offboarding+users+from+Okta) disabled </br></br></br>"
   - type: markdown
     attributes:
-      value: "### Support Tier 2 - DevOps 🌷 </br></br>"
+      value: "### Support Tier 2 - DevOps 🌷 </br>"
   - type: markdown
     attributes:
       value: "_The following steps are performed by **Platform Support Tier 2 DevOps**. Detailed instructions found [here](https://vfs.atlassian.net/wiki/spaces/OT/pages/2097545323/Offboard+Team+Member)_"
@@ -164,7 +166,13 @@ body:
       value: "- [ ] AWS access removed (if applicable. Search their name in [AWS IAM](https://console.amazonaws-us-gov.com/iamv2/home#/home))</br> > Use the same [SOCKS and AWS access Workflow](https://github.com/department-of-veterans-affairs/devops/actions/workflows/offboarding.yml) to remove user's entry from [iam_users.tf](https://github.com/department-of-veterans-affairs/devops/blob/master/terraform/environments/global/iam_users.tf). You'll need the user's AWS username (typically `First.Last`). Merge the PR and apply Terraform."
   - type: markdown
     attributes: 
-      value: "- [ ] Datadog (if applicable. Check [Datadog users](https://vagov.ddog-gov.com/organization-settings/users))</br>    - [ ] Disable in Datadog UI (must be done by a Datadog admin)</br>    - [ ] [Submit an ECC request](https://vfs.atlassian.net/wiki/spaces/OT/pages/2526282894/Offboarding+Users+from+Datadog) (Only necessary if they were in the Datadog UI) "
+      value: "- [ ] Datadog (if applicable. Check [Datadog users](https://vagov.ddog-gov.com/organization-settings/users))</br>"        
+  - type: markdown
+    attributes: 
+      value: "- [ ] Disable in Datadog UI (must be done by a Datadog admin)</br>"
+  - type: markdown
+    attributes: 
+      value: "- [ ] [Submit an ECC request](https://vfs.atlassian.net/wiki/spaces/OT/pages/2526282894/Offboarding+Users+from+Datadog) (Only necessary if they were in the Datadog UI)"
   - type: markdown
     attributes: 
       value: "- [ ] Bot (`va-bot`, `va-vfs-bot`, and `va-vsp-bot`) user GitHub account(s) YubiKey(s) removed</br> > This is rare. See [documentation](https://vfs.atlassian.net/wiki/spaces/OT/pages/1908932642/Remove+YubiKeys+of+Offboarded+Operations+Team+Members) for current users and removal process. </br></br></br>"
@@ -182,4 +190,4 @@ body:
       value: "- [ ] Removed from Monday Design Meeting invite"
   - type: markdown
     attributes: 
-      value: "CC: @department-of-veterans-affairs/vsp-operations, @department-of-veterans-affairs/platform-analytics-insights-team, @department-of-veterans-affairs/confluence-admins, @department-of-veterans-affairs/platform-design"
+      value: "CC: @department-of-veterans-affairs/vsp-operations, @department-of-veterans-affairs/platform-analytics-insights-team, @department-of-veterans-affairs/confluence-admins, @department-of-veterans-affairs/platform-design" 
