@@ -157,7 +157,7 @@ body:
       value: "#### Designers & Researchers"
   - type: markdown
     attributes:
-      value: "-- [ ] Review the [Research and Design Guide on Platform Website](https://depo-platform-documentation.scrollhelp.site/research-design/index.html)"
+      value: "- [ ] Review the [Research and Design Guide on Platform Website](https://depo-platform-documentation.scrollhelp.site/research-design/index.html)"
   - type: markdown
     attributes:
       value: "- [ ] Learn how we do [research at VA](https://depo-platform-documentation.scrollhelp.site/research-design/research-at-va)"
