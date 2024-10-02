@@ -73,6 +73,9 @@ body:
       required: true
   - type: markdown
     attributes:
+      value: "</br>"
+  - type: markdown
+    attributes:
       value: "### General"
   - type: markdown
     attributes:
