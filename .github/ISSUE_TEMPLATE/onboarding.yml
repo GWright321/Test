@@ -1,22 +1,21 @@
-
 name: Onboarding Request
 description: To guide new members through the onboarding process for the VA.gov Platform or VFS team.
 title: Onboarding of [individual]
 labels: onboarding, VFS, operations
 
 body:
- - type: markdown
-    attributes:
-    value: "**Note:** this ticket should not be submitted until after you receive access to the appropriate repos. You will receive an email titled “USAccess PIV Sponsored” when your access is ready."
   - type: markdown
     attributes:
-      value: "## Welcome and Introduction\nWelcome to the Department of Veterans Affairs (VA) Veteran Facing Services (VFS) team!\n\nAs a new VFS team member, you will be working in the web ecosystem we call the VA.gov Platform (or \"**The Platform,**\" for short). The tasks on this list are designed to get you up to speed on the role of Platform, making it easier for you to do your job.\n\nBecause the VA is a huge organization that serves millions, the Platforms it runs on are equally big, complex, and multilayered. Most people find that even learning the basics for their own practice area entails a significant learning curve. The tasks on this checklist will help you acquire those basics as quickly and efficiently as possible.</br>"
+      value: "**Note:** this ticket should not be submitted until after you receive access to the appropriate repos. You will receive an email titled “USAccess PIV Sponsored” when your access is ready."
   - type: markdown
     attributes:
-      value: "## User Story\nAs a new VFS team member, I need to complete onboarding activities so I can successfully work on my project and support the VA.gov Platform.</br>"
+      value: "## Welcome and Introduction\nWelcome to the Department of Veterans Affairs (VA) Veteran Facing Services (VFS) team!\n\nAs a new VFS team member, you will be working in the web ecosystem we call the VA.gov Platform (or \"**The Platform,**\" for short). The tasks on this list are designed to get you up to speed on the role of Platform, making it easier for you to do your job.\n\nBecause the VA is a huge organization that serves millions, the Platforms it runs on are equally big, complex, and multilayered. Most people find that even learning the basics for their own practice area entails a significant learning curve. The tasks on this checklist will help you acquire those basics as quickly and efficiently as possible."
   - type: markdown
     attributes:
-      value: "## How to fill out this ticket\n- [ ] Add your name to the ticket title\n- [ ] Complete the Onboarding Checklist below\n- [ ] Under **Get set up for your practice area,** you only need to complete the items for your role\n- [ ] You can close this ticket when all items are completed in the Onboarding Checklist and the Platform Checklist</br></br>"
+      value: "## User Story\nAs a new VFS team member, I need to complete onboarding activities so I can successfully work on my project and support the VA.gov Platform."
+  - type: markdown
+    attributes:
+      value: "## How to fill out this ticket\n- [ ] Add your name to the ticket title\n- [ ] Complete the Onboarding Checklist below\n- [ ] Under **Get set up for your practice area,** you only need to complete the items for your role\n- [ ] You can close this ticket when all items are completed in the Onboarding Checklist and the Platform Checklist"
   - type: markdown
     attributes:
       value: "## Onboarding Checklist"
@@ -104,8 +103,7 @@ body:
       value: "- [ ] Confirm that you have access to the [VA GitHub Organization](https://depo-platform-documentation.scrollhelp.site/getting-started/request-access-to-tools#Requestaccesstotools-GettingaccesstotheVAGitHuborganization)"
   - type: markdown
     attributes:
-      value: "- [ ] Opt out of Google Analytics on all your devices</br></br>"
-  Sure! Here’s how you can add that section to the end of your YAML template:
+      value: "- [ ] Opt out of Google Analytics on all your devices"
   - type: markdown
     attributes:
       value: "### Get set up for your practice area"
@@ -168,7 +166,9 @@ body:
       value: "- [ ] Watch the [Back-end orientation](https://depo-platform-documentation.scrollhelp.site/getting-started/calendly-orientation-sessions#OrientationSessions-Back-endOrientation) recording"
   - type: markdown
     attributes:
-      value: "- [ ] Watch the [QA orientation](https://depo-platform-documentation.scrollhelp.site/getting-started/calendly-orientation-sessions#OrientationSessions-QAOrientation) recording"
+      value: "- [ ] Watch the [QA orientation](https://depo-platform-documentation.scrollhelp.site/getting-started
+
+/calendly-orientation-sessions#OrientationSessions-QAOrientation) recording"
   - type: markdown
     attributes:
       value: "#### Product Managers & Delivery Managers"
