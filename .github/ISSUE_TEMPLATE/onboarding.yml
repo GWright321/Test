@@ -166,9 +166,7 @@ body:
       value: "- [ ] Watch the [Back-end orientation](https://depo-platform-documentation.scrollhelp.site/getting-started/calendly-orientation-sessions#OrientationSessions-Back-endOrientation) recording"
   - type: markdown
     attributes:
-      value: "- [ ] Watch the [QA orientation](https://depo-platform-documentation.scrollhelp.site/getting-started
-
-/calendly-orientation-sessions#OrientationSessions-QAOrientation) recording"
+      value: "- [ ] Watch the [QA orientation](https://depo-platform-documentation.scrollhelp.site/getting-started/calendly-orientation-sessions#OrientationSessions-QAOrientation) recording"
   - type: markdown
     attributes:
       value: "#### Product Managers & Delivery Managers"
