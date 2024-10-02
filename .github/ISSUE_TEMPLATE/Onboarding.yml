@@ -241,10 +241,16 @@ body:
       value: "- [ ] Watch the [QA orientation](https://depo-platform-documentation.scrollhelp.site/getting-started/calendly-orientation-sessions#OrientationSessions-QAorientation) recording"
   - type: markdown
     attributes:
+      value: "</br>"
+  - type: markdown
+    attributes:
       value: "### Off-boarding of teammates"
   - type: markdown
     attributes:
       value: "- [ ] Review [process for when a teammate leaves](https://depo-platform-documentation.scrollhelp.site/getting-started/offboarding)"
+  - type: markdown
+    attributes:
+      value: "</br>"
   - type: markdown
     attributes:
       value: "## Platform Checklist"
