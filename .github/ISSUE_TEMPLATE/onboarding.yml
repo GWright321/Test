@@ -7,7 +7,7 @@ labels: onboarding, VFS, operations
 body:
  - type: markdown
     attributes:
-      value: "**Note:** this ticket should not be submitted until after you receive access to the appropriate repos. You will receive an email titled “USAccess PIV Sponsored” when your access is ready."
+    value: "**Note:** this ticket should not be submitted until after you receive access to the appropriate repos. You will receive an email titled “USAccess PIV Sponsored” when your access is ready."
   - type: markdown
     attributes:
       value: "## Welcome and Introduction\nWelcome to the Department of Veterans Affairs (VA) Veteran Facing Services (VFS) team!\n\nAs a new VFS team member, you will be working in the web ecosystem we call the VA.gov Platform (or \"**The Platform,**\" for short). The tasks on this list are designed to get you up to speed on the role of Platform, making it easier for you to do your job.\n\nBecause the VA is a huge organization that serves millions, the Platforms it runs on are equally big, complex, and multilayered. Most people find that even learning the basics for their own practice area entails a significant learning curve. The tasks on this checklist will help you acquire those basics as quickly and efficiently as possible.</br>"
