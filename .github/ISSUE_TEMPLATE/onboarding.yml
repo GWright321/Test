@@ -115,6 +115,9 @@ body:
       value: "- [ ] [Opt out of Google Analytics](https://www.va.gov/analytics-opt-out.html) on all of your browsers on your work machines, personal machines (if you are not a Veteran yourself using the site for your own applications), and mobile devices"
   - type: markdown
     attributes:
+      value: "</br>"
+  - type: markdown
+    attributes:
       value: "### Norms and Standards"
   - type: markdown
     attributes:
@@ -154,7 +157,7 @@ body:
       value: "#### Designers & Researchers"
   - type: markdown
     attributes:
-      value: "- [ ] Review the [Research and Design Guide on Platform Website](https://depo-platform-documentation.scrollhelp.site/research-design/index.html)"
+      value: "-- [ ] Review the [Research and Design Guide on Platform Website](https://depo-platform-documentation.scrollhelp.site/research-design/index.html)"
   - type: markdown
     attributes:
       value: "- [ ] Learn how we do [research at VA](https://depo-platform-documentation.scrollhelp.site/research-design/research-at-va)"
