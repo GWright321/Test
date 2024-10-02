@@ -77,7 +77,7 @@ body:
       required: true
   - type: markdown
     attributes:
-      value: "### Onboarding Checklist"
+      value: "### General"
   - type: markdown
     attributes:
       value: "- [ ] Watch the [General orientation](https://depo-platform-documentation.scrollhelp.site/getting-started/calendly-orientation-sessions#OrientationSessions-Generalorientation) recording"
