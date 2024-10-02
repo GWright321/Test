@@ -91,6 +91,9 @@ body:
       value: "- [ ] Watch [VFS Orientation for Platform Website video](https://www.youtube.com/watch?v=I3RFCuTEfBI&ab_channel=PlatformCrew)"
   - type: markdown
     attributes:
+      value: "- [ ] Watch the [Platform Support overview video](https://www.youtube.com/watch?v=iwIQU4XepNQ)"
+  - type: markdown
+    attributes:
       value: "- [ ] Review the [Getting help from the Platform in Slack guidance](https://depo-platform-documentation.scrollhelp.site/support/Getting-help-from-the-Platform-in-Slack.1439138197.html)"
   - type: markdown
     attributes:
