@@ -21,7 +21,7 @@ body:
       value: "## Onboarding Checklist"
   - type: markdown
     attributes:
-      value: "Share your info with Platform"
+      value: "### Share your info with Platform"
   - type: markdown
     attributes:
       value: "- [ ] Complete the fields above"
