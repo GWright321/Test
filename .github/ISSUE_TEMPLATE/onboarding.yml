@@ -106,8 +106,6 @@ body:
     attributes:
       value: "- [ ] Opt out of Google Analytics on all your devices</br></br>"
   Sure! Here’s how you can add that section to the end of your YAML template:
-
-```yaml
   - type: markdown
     attributes:
       value: "### Get set up for your practice area"
@@ -207,6 +205,3 @@ body:
   - type: markdown
     attributes:
       value: "- [ ] New VFS team member has been added to the vets.gov-write GitHub team"
-```
-
-This addition maintains the structure of your YAML template and clearly outlines tasks specific to various roles, as well as off-boarding procedures and platform checklist items. Let me know if you need any further modifications!
