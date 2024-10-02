@@ -21,7 +21,7 @@ body:
       value: "### Share your info with Platform"
   - type: markdown
     attributes:
-      value: "- [ ] Complete the fields above"
+      value: "- [ ] Complete the fields below"
   - type: input
     id: requiredName
     attributes:
