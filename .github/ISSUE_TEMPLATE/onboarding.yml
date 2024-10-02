@@ -104,7 +104,7 @@ body:
       value: "- [ ] Confirm that you have access to the [VA GitHub Organization](https://depo-platform-documentation.scrollhelp.site/getting-started/request-access-to-tools#Requestaccesstotools-GettingaccesstotheVAGitHuborganization)"
   - type: markdown
     attributes:
-      value: "- [ ] Opt out of Google Analytics on all your devices"
+      value: "- [ ] Opt out of Google Analytics on all your devices</br></br>"
   - type: markdown
     attributes:
       value: "### Get Set Up for Your Practice Area"
