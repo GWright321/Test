@@ -139,7 +139,7 @@ body:
       value: "### Working on the Platform"
   - type: markdown
     attributes:
-      value: "- [ ] Review the [Platform Principles](https://depo-platform-documentation.scrollhelp.site/getting-started/platform-crew-principles)"
+      value: "-  [ ] Review the [Platform Principles](https://depo-platform-documentation.scrollhelp.site/getting-started/platform-crew-principles)"
   - type: markdown
     attributes:
       value: "- [ ] Review the [GitHub Markdown Cheatsheet](https://help.github.com/en/categories/writing-on-github) to learn the syntax for formatting documents in GitHub"
