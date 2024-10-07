@@ -43,16 +43,23 @@ body:
       placeholder: 
     validations:
       required: true
-  - type: checkbox
+ - type: select
     id: crew
     attributes:
       label: Crew
       options:
-        - Sitewide
-        - Account Experience
-        - Health Tools
-        - Benefit Tools
-        - Lighthouse API
+        - label: Select a Crew
+          value: ""
+        - label: Sitewide
+          value: "sitewide"
+        - label: Account Experience
+          value: "account_experience"
+        - label: Health Tools
+          value: "health_tools"
+        - label: Benefit Tools
+          value: "benefit_tools"
+        - label: Lighthouse API
+          value: "lighthouse_api"
   - type: input
     id: githubTeamName
     attributes:
