@@ -6,7 +6,7 @@ labels: Onboarding
 body:
   - type: markdown
     attributes:
-      value: "## Welcome and Introduction\nWe are excited to welcome your team to VA.gov. As a new VFS team, this template should be completed by your teams Product Owner and/or Product Manager."
+      value: "## Welcome and Introduction\nWe are excited to welcome your team to VA.gov. As a new VFS team, this template should be completed by your team's Product Owner and/or Product Manager."
   - type: markdown
     attributes:
       value: "</br>"
@@ -43,7 +43,7 @@ body:
       placeholder: 
     validations:
       required: true
- - type: select
+  - type: select
     id: crew
     attributes:
       label: Crew
