@@ -36,9 +36,9 @@ body:
       placeholder: 
     validations:
       required: true
-- type: markdown
+  - type: markdown
     attributes:
-      value: "## VA Buisness Owner"
+      value: "## VA Business Owner"
   - type: markdown
     attributes: 
       value: "- [ ] OCTO (Office of the CTO)"
@@ -57,7 +57,7 @@ body:
   - type: markdown
     attributes: 
       value: "- [ ] Other. Please specify: ____________"
-- type: markdown
+  - type: markdown
     attributes:
       value: "## Crew"
   - type: markdown
