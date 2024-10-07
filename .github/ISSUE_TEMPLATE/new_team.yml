@@ -1,0 +1,104 @@
+name: VFS Team Onboarding
+description: To guide new VFS team members through the onboarding process for the VA.gov Platform.
+title: Onboarding of [team]
+labels: Onboarding
+
+body:
+  - type: markdown
+    attributes:
+      value: "## Welcome and Introduction\nWe are excited to welcome your team to VA.gov. As a new VFS team, this template should be completed by your teams Product Owner and/or Product Manager."
+  - type: markdown
+    attributes:
+      value: "</br>"
+  - type: markdown
+    attributes:
+      value: "## User Stories\nAs the leader of a new VFS team, I need to share basic info about my team with Platform so that they can collaborate effectively.\n\nAs the leader of a new VFS team, I need to ensure my team follows the instructions for new VFS team members to comply with Platform policies.\n\nAs the leader of a new VFS team, I need to ensure my team's product information is accurate for Platform's records.\n\nAs the leader of a new VFS team, I need to complete ATO orientation to maintain VA.gov's security compliance."
+  - type: markdown
+    attributes:
+      value: "</br>"
+  - type: markdown
+    attributes:
+      value: "## New Team Info\nAdd your team's practice and contact information below."
+  - type: markdown
+    attributes:
+      value: "- [ ] Complete the fields below"
+  - type: input
+    id: teamName
+    attributes:
+      label: Team Name
+      placeholder: ex. VFS Team Alpha
+    validations:
+      required: true
+  - type: input
+    id: productOwner
+    attributes:
+      label: OCTO-DE Product Owner
+      placeholder: 
+    validations:
+      required: true
+  - type: input
+    id: vaBusinessOwner
+    attributes:
+      label: VA Business Owner
+      placeholder: 
+    validations:
+      required: true
+  - type: checkbox
+    id: crew
+    attributes:
+      label: Crew
+      options:
+        - Sitewide
+        - Account Experience
+        - Health Tools
+        - Benefit Tools
+        - Lighthouse API
+  - type: input
+    id: githubTeamName
+    attributes:
+      label: GitHub Team Name
+      placeholder: 
+    validations:
+      required: true
+  - type: input
+    id: githubTeamLabel
+    attributes:
+      label: GitHub Team Label
+      placeholder: 
+    validations:
+      required: true
+  - type: input
+    id: launchDate
+    attributes:
+      label: Team Launch Date
+      placeholder: MM/DD/YYYY
+    validations:
+      required: true
+  - type: input
+    id: slackChannel
+    attributes:
+      label: Public Slack Channel
+      placeholder: 
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: "</br>"
+  - type: markdown
+    attributes:
+      value: "## ToT (Team of Teams)\n- [ ] Contact `@Julia Badillo` or `@Erica Robbins [GovCIO_VetsPS]` on the #team-of-teams-slide-collection channel to receive an invite to the Team of Teams meeting."
+  - type: markdown
+    attributes:
+      value: "## Introduce your team on Slack\n- [ ] Introduce your team on the #vfs-all-teams Slack channel, including team name, Product Manager, Product Owner, crew, and supported products."
+  - type: markdown
+    attributes:
+      value: "## Platform Orientation for your team members\n- [ ] Direct your team to the guidance for [New VFS team members](https://depo-platform-documentation.scrollhelp.site/getting-started/Guidance-for-new-teams-and-team-members.2132803700.html#Guidancefornewteamsandteammembers-NewVFSTeammembers).\n- [ ] Ensure all team members complete the orientation process."
+  - type: markdown
+    attributes:
+      value: "## Review and Update Your Team's Product Information\n- [ ] Go to the [VA Product Directory](https://depo-platform-documentation.scrollhelp.site/getting-started/vfs-product-directory).\n- [ ] Ensure your team's products are listed and assigned correctly."
+  - type: markdown
+    attributes:
+      value: "## ATO (Authorization to Operate) Orientation\n- [ ] Post in the #platform-security Slack channel to request an ATO team orientation.\n- [ ] Confirm that the orientation has been completed."
+  - type: markdown
+    attributes:
+      value: "## Platform Checklist\n- [ ] New VFS Team has been added to the VFS Team Roster located in [Atlas](https://www.va.gov/atlas/)."
