@@ -36,13 +36,9 @@ body:
       placeholder: 
     validations:
       required: true
-  - type: input
-    id: vaBusinessOwner
+- type: markdown
     attributes:
-      label: VA Business Owner
-      placeholder: 
-    validations:
-      required: true
+      value: "## VA Buisness Owner"
   - type: markdown
     attributes: 
       value: "- [ ] OCTO (Office of the CTO)"
@@ -61,13 +57,9 @@ body:
   - type: markdown
     attributes: 
       value: "- [ ] Other. Please specify: ____________"
-  - type: input
-    id: Crew
+- type: markdown
     attributes:
-      label: Crew
-      placeholder: 
-    validations:
-      required: true
+      value: "## Crew"
   - type: markdown
     attributes: 
       value: "- [ ] Sitewide"
