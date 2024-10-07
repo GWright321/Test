@@ -117,7 +117,7 @@ body:
       value: "## Platform Orientation for your team members\n- [ ] Direct your team to the guidance for [New VFS team members](https://depo-platform-documentation.scrollhelp.site/getting-started/Guidance-for-new-teams-and-team-members.2132803700.html#Guidancefornewteamsandteammembers-NewVFSTeammembers).\n- [ ] Ensure all team members complete the orientation process."
   - type: markdown
     attributes:
-      value: "## Review and Update Your Team's Product Information\n- [ ] Go to the [VA Product Directory](https://depo-platform-documentation.scrollhelp.site/getting-started/vfs-product-directory).\n- [ ] Ensure your team's products are listed and assigned correctly."
+      value: "## Review and Update Your Team's Product Information\n- [ ] Go to the [VA Product Directory](https://depo-platform-documentation.scrollhelp.site/getting-started/vfs-product-directory)\n- [ ] Navigate to and select your team's product\n- [ ] Review to make sure that all of your team's products are listed and assigned correctly\n- [ ] If an edit to your team's product page needs to be made, see the [user guide](https://depo-platform-documentation.scrollhelp.site/getting-started/vfs-product-directory-user-guide)"
   - type: markdown
     attributes:
       value: "## ATO (Authorization to Operate) Orientation\n- [ ] Post in the #platform-security Slack channel to request an ATO team orientation.\n- [ ] Confirm that the orientation has been completed."
