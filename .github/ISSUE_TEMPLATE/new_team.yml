@@ -43,6 +43,46 @@ body:
       placeholder: 
     validations:
       required: true
+  - type: markdown
+    attributes: 
+      value: "- [ ] OCTO (Office of the CTO)"
+  - type: markdown
+    attributes: 
+      value: "- [ ] VHA (Veterans Health Administration)"
+  - type: markdown
+    attributes: 
+      value: "- [ ] VBA (Veterans Benefits Administration)"
+  - type: markdown
+    attributes: 
+      value: "- [ ] NCA (National Cemetery Administration)"
+  - type: markdown
+    attributes: 
+      value: "- [ ] VACO (Veterans Affairs Central Office)"
+  - type: markdown
+    attributes: 
+      value: "- [ ] Other. Please specify: ____________"
+  - type: input
+    id: Crew
+    attributes:
+      label: Crew
+      placeholder: 
+    validations:
+      required: true
+  - type: markdown
+    attributes: 
+      value: "- [ ] Sitewide"
+  - type: markdown
+    attributes: 
+      value: "- [ ] Account Experience"
+  - type: markdown
+    attributes: 
+      value: "- [ ] Health Tools"
+  - type: markdown
+    attributes: 
+      value: "- [ ] Benefit Tools"
+  - type: markdown
+    attributes: 
+      value: "- [ ] Lighthouse API"
   - type: input
     id: githubTeamName
     attributes:
