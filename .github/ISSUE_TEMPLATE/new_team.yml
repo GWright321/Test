@@ -19,9 +19,6 @@ body:
   - type: markdown
     attributes:
       value: "## New Team Info\nAdd your team's practice and contact information below."
-  - type: markdown
-    attributes:
-      value: "- [ ] Complete the fields below"
   - type: input
     id: teamName
     attributes:
