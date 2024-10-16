@@ -12,6 +12,9 @@ body:
       value: "</br>"
   - type: markdown
     attributes:
+      value: "- [ ] Complete the fields below"
+  - type: markdown
+    attributes:
       value: "## User Story\nAs a new VFS team member, I need to complete onboarding activities so I can successfully work on my project and support the VA.gov Platform."
   - type: markdown
     attributes:
