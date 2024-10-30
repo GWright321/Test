@@ -184,7 +184,7 @@ body:
       value: "- [ ] Watch the [Design orientation](https://depo-platform-documentation.scrollhelp.site/getting-started/calendly-orientation-sessions#OrientationSessions-Design&ResearchOrientation) recording"
   - type: markdown
     attributes:
-      value: "- [ ] Watch the [Accessibility orientation](https://depo-platform-documentation.scrollhelp.site/getting-started/calendly-orientation-sessions#OrientationSessions-AccessibilityOrientation) recording"
+      value: "- [ ] Watch the [Accessibility orientation](https://depo-platform-documentation.scrollhelp.site/getting-started/calendly-orientation-sessions#OrientationSessions-AccessibilityOrientation) recording </br>"
   - type: markdown
     attributes:
       value: "#### Front-end Engineers"
