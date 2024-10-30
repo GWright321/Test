@@ -1,7 +1,7 @@
 name: Onboarding Request
 description: To guide new members through the onboarding process for the VA.gov Platform or VFS team.
 title: Onboarding of [individual]
-labels: Onboarding
+labels: new-vfs-team-member, platform-orientation
 
 body:
   - type: markdown
