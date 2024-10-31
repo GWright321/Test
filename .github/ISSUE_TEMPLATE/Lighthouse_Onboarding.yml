@@ -30,7 +30,7 @@ body:
       value: "### Share your info with Platform"
   - type: markdown
     attributes:
-      value: "- [ ] Verify User Exists in Lighthouse Roster"
+      value: "- [ ] Verify User Exists in [Lighthouse Roster](https://confluence.devops.va.gov/pages/viewpage.action?spaceKey=VAExternal&title=Who%27s+Who+-+API+Lighthouse+Program)"
   - type: input
     id: requiredName
     attributes:
