@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 # Instructions
-Please fill out the necessary details and list the PRs related to the OHD deployment in the sections below.
+Please fill out the necessary details and list the PRs related to the OHD in the sections below.
 
 ## PRs Related to OHD
 - Please provide the list of PRs related to the need for this OHD below:
@@ -37,7 +37,7 @@ Please fill out the necessary details and list the PRs related to the OHD deploy
 >
 
 ## Verify The following
- - [ ] The OHD Deploy Request is after the cutoff time for the regular deploy.[^1] 
+ - [ ] The OHD Request is after the cutoff time for the regular deploy.[^1] 
  - [ ] You are prepared to create an Incident Post Mortem[^2] within two business days.
 
 [^1]: (See [Deployment Policy](https://depo-platform-documentation.scrollhelp.site/developer-docs/deployment-policies) and [Deployment Schedules](https://depo-platform-documentation.scrollhelp.site/developer-docs/Deployments.1844641889.html)
