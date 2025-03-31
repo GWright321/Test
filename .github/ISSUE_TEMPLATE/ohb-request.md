@@ -1,7 +1,7 @@
 ---
 name: OHB Request
 about: Template for requesting Off Hours Deploy
-title: OHB Requesst
+title: OHB Request
 labels: 'frontend, operations, platform-tech-team-support '
 assignees: ''
 
