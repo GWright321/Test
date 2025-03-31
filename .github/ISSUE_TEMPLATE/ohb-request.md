@@ -20,7 +20,7 @@ Please fill out the necessary details and list the PRs related to the OHB deploy
   <!-- Who is submitting this request? Please assign the person or team. -->
 
 ## Date and Time
-- Specify the date and time the request is being made:
+- Specify the date and time for scheduled OHB:
 
 ## Platform Maintenance Window
 - Can/Should this be tied to a Platform Maintenance Window?
