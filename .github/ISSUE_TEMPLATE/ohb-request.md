@@ -2,14 +2,14 @@
 name: OHB Request
 about: Template for requesting Off Hours Deploy
 title: OHB Requesst
-labels: ''
+labels: 'frontend, operations, platform-tech-team-support '
 assignees: ''
 
 ---
 # Instructions
-Please fill out the necessary details and list the PRs related to the OOB deployment in the sections below.
+Please fill out the necessary details and list the PRs related to the OHB deployment in the sections below.
 
-## PRs Related to OOB
+## PRs Related to OHB
 - Please provide the list of PRs related to the need for this OOB Deploy below:
    
 ## Description / Expectations
