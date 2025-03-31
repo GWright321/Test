@@ -30,7 +30,7 @@ Please fill out the necessary details and list the PRs related to the OHD in the
 >
 
 ## Platform Maintenance Window
-- Can/Should this OHD be tied to a Platform Maintenance Window?
+- Can this OHD be tied to a Platform Maintenance Window?
 >
 
 - Maintenance Window (if applicable):
