@@ -10,7 +10,7 @@ assignees: ''
 Please fill out the necessary details and list the PRs related to the OHD in the sections below.
 
 ## PRs Related to OHD
-- Please provide the list of PRs related to the need for this OHD below:
+- Please provide the list of PRs related to the need for this OHD:
 >
 
 ## Justification
