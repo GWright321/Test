@@ -6,40 +6,41 @@ labels: ''
 assignees: ''
 
 ---
-
 # Instructions
-Please fill out the necessary details and list the PRs related to the OHB deployment in the sections below.
+Please fill out the necessary details and list the PRs related to the OOB deployment in the sections below.
 
-## PRs Related to OHB
-- Please provide the list of PRs related to the need for this OHB Deploy below:
-   > PR?????
-
-## Active Daily Users Impacted
-- How many active users are impacted at this time and day.
-   >
-
-## Has fix been confirmed in Staging?
-- [ ] Yes
-- [ ] No
-
-## Description
-- Please provide the details/reason for the OHB Deploy
-   > Add Details Here ... 
+## PRs Related to OOB
+- Please provide the list of PRs related to the need for this OOB Deploy below:
    
-## Verify The following
- - [ ] The OHB Deploy Request is after the cutoff time for the regular deploy.[^1] 
- - [ ] The OHB Deploy Request is critical and must be resolved before the next automated deploy.
- - [ ] You are prepared to create an Incident Post Mortem[^2] within two business days.
+## Description / Expectations
+- Please provide a clear and concise description of the request and what is expected:
 
-[^1]: (See [Deployment Policy](https://depo-platform-documentation.scrollhelp.site/developer-docs/deployment-policies) and [Deployment Schedules](https://depo-platform-documentation.scrollhelp.site/developer-docs/Deployments.1844641889.html)
-[^2]: https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/tree/master/Postmortems
+## Requestor Information
+- Person or Team Making the Request: 
+  <!-- Who is submitting this request? Please assign the person or team. -->
 
+## Date and Time
+- Specify the date and time the request is being made:
 
-*Performed by Platform Support Team*
- - [ ] PagerDuty OHB Deploy Incident Opened
- - [ ] OCTO-DE staff acknowledgment of Request, via `/pd trigger`
- - [ ] Notification is posted in the appropriate Slack support and team Channels
- - [ ] Infrastructure/Operations has acknowledge the Requests (This applies to revproxy and fwdproxy, but is not required for Frontend and Backend requests)
- - [ ] Security Team has Reviewed the requests (This is not necessary for requests that are not related to security)
+## Platform Maintenance Window
+- Can/Should this be tied to a Platform Maintenance Window?
+  <!-- Indicate if this request should align with a platform maintenance window. -->
+
+- Maintenance Window (if applicable):
+  <!-- If applicable, provide the maintenance window details. -->
+
+## Justification
+- Please explain the reason or need for this request:
+
+## Potential Support Needed
+- [ ] Backend (BE)
+  <!-- Indicate if backend support is needed. -->
+- [ ] Frontend (FE)
+  <!-- Indicate if frontend support is needed. -->
+- [ ] DevOps:
+  <!-- Indicate if DevOps support is needed. -->
+- [ ] Other:
+  <!-- Any other support required (please specify). -->
+
 
  CC: @department-of-veterans-affairs/vsp-operations ,  @department-of-veterans-affairs/vsp-product-support
