@@ -11,23 +11,45 @@ Please fill out the necessary details and list the PRs related to the OHD deploy
 
 ## PRs Related to OHD
 - Please provide the list of PRs related to the need for this OHD below:
-   
-## Description / Expectations
-- Please provide a clear and concise description of the request and what is expected:
+>
+
+## Justification
+- Please explain the reason or need for this OHD request:
+>
 
 ## Requestor Information
 - Person and Team Making the Request: 
- 
+>
+
+## Description / Expectations
+- Please provide a clear and concise description of the request and what is expected:
+>
+
 ## Date and Time
 - Specify the date and time for scheduled OHD:
+>
 
 ## Platform Maintenance Window
 - Can/Should this OHD be tied to a Platform Maintenance Window?
+>
 
 - Maintenance Window (if applicable):
-  
-## Justification
-- Please explain the reason or need for this OHD request:
+>
+
+## Verify The following
+ - [ ] The OHD Deploy Request is after the cutoff time for the regular deploy.[^1] 
+ - [ ] You are prepared to create an Incident Post Mortem[^2] within two business days.
+
+[^1]: (See [Deployment Policy](https://depo-platform-documentation.scrollhelp.site/developer-docs/deployment-policies) and [Deployment Schedules](https://depo-platform-documentation.scrollhelp.site/developer-docs/Deployments.1844641889.html)
+[^2]: https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/tree/master/Postmortems
+
+
+*Performed by Platform Support Team*
+ - [ ] PagerDuty OHD Deploy Incident Opened
+ - [ ] OCTO-DE staff acknowledgment of Request, via `/pd trigger`
+ - [ ] Notification is posted in the appropriate Slack support and team Channels
+ - [ ] Infrastructure/Operations has acknowledge the Requests (This applies to revproxy and fwdproxy, but is not required for Frontend and Backend requests)
+ - [ ] Security Team has Reviewed the requests (This is not necessary for requests that are not related to security)
 
 ## Potential Support Needed
 - [ ] Backend (BE)
