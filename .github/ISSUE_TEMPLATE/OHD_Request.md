@@ -1,7 +1,7 @@
 ---
 name: Off Hour Deploy(OHD) Request
 about: Template for requesting Off Hours Deploy
-title: Off Hour Deploy Request
+title: Off Hour Deploy(OHD) Request
 labels: 'frontend, operations, platform-tech-team-support '
 assignees: ''
 
