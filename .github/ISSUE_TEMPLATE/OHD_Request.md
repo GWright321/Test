@@ -56,10 +56,9 @@ Please fill out the necessary details and list the PRs related to the OHD in the
  
 - [ ] Frontend (FE)
 
-- [ ] DevOps:
+- [ ] DevOps
 
-- [ ] Other:
-
+- [ ] Other: 
 
 
  CC: @department-of-veterans-affairs/vsp-operations ,  @department-of-veterans-affairs/vsp-product-support
